@@ -1,0 +1,11 @@
+public class acad {
+	public static void main(String args[])
+	{
+		int a = 45;
+		int b = 32;
+		int sum= a+b; //sum of integer a and b
+		System.out.println(sum);
+
+	}
+
+}
