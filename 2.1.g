@@ -1,3 +1,11 @@
+Yes,we can overload a method with same return type but arguments should be of different data type
+Method Overloading means to have two or more methods with same name in the same class with different
+arguments. The method overloading allows us to implement methods that support the same semantic operation
+but differ by argument number or type.
+
+lets take an example,to overload a sum function which will return integer type but different types of 
+argument it will take:
+
 import java.util.Scanner;
 
 public class acad {
@@ -21,3 +29,5 @@ System.out.println(sum('a'));    // sum with char type as input
 sc.close();
 }
 }
+
+above program shows that we can overload a method with same data type but with arguments of different data type.
